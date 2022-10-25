@@ -2,10 +2,11 @@
 .section .title {
     color: var(--white-test-color);
 }
-.section-title {
-    color: var(--section-title);
+
+.section h3 {
+    color: var(--primary-text-color);
 }
-.section-text {
+.section p {
     color: var(--grey-text-color);
 }
 
@@ -15,8 +16,10 @@
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     border-color: #FFFFFF;
+    cursor: pointer;
 }
 .picture .position {
     color: var(--grey-text-color);
 }
+
 

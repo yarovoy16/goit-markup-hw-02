@@ -1,0 +1,10 @@
+.button {
+    background-color: var(--button-portolio-grey);
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+}
