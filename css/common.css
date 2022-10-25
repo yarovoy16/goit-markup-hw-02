@@ -1,0 +1,52 @@
+:root {
+    --primary-text-color: #000000;
+    --white-test-color: #7a0f0f;
+    --accent-color: #2196F3;
+    --section-title: #212121;
+    --grey-text-color: #757575;
+    --primary-white-color: #FFFFFF;
+}
+
+.accent {
+    color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0, 8);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: black;
+}
+
+.site-nav .link.current {
+    color: var(--primary-text-color);
+}
+
+.logo {
+    color: black;
+}
+.contacts-nav .link {
+    color: var(--accent-color);
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--grey-text-color);
+}
+.adress .link-adress {
+    color: var(--white-test-color);
+}
+.adress .link {
+    color: var(--grey-text-color);
+}

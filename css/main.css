@@ -1,0 +1,22 @@
+
+.section .title {
+    color: var(--white-test-color);
+}
+.section-title {
+    color: var(--section-title);
+}
+.section-text {
+    color: var(--grey-text-color);
+}
+
+/* button */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: #FFFFFF;
+}
+.picture .position {
+    color: var(--grey-text-color);
+}
+
