@@ -1,13 +1,29 @@
-
 .section .title {
-    color: var(--white-test-color);
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44;
+    letter-spacing: 0.06em;
+    background-color: #2F303A;
+
 }
 
-.section h3 {
-    color: var(--primary-text-color);
+.section1 h3 {
+    color: var(--section-title);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.section p {
+
+.section1 p {
     color: var(--grey-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 /* button */
@@ -17,9 +33,20 @@
     background-color: var(--accent-color);
     border-color: #FFFFFF;
     cursor: pointer;
+    font-size: 16;
+    font-weight: 700;
 }
+
 .picture .position {
     color: var(--grey-text-color);
 }
 
-
+.section2 .section-title {
+    color: var(--section-title);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
