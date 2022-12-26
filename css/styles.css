@@ -62,6 +62,10 @@ body {
     color: var(--accent-color);
 }
 
+.menu .link-current{
+    color: var(--accent-color);
+}
+
 .contacts a{
     width: 122px;
     height: 16px;
