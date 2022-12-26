@@ -114,6 +114,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+/* Не понятно как добавить анимацию кнопки при наведении */
 .button{
     position: absolute;
     width: 216px;
@@ -121,35 +122,21 @@ body {
     left: 692px;
     top: 430px;
     border-radius: 4px;
-}
-/* Не работает. Не знаю как стилизовать Текст в кнопке...
-.button-text {
-    position: absolute;
-    width: 152px;
-    height: 30px;
-    left: 724px;
-    top: 440px;
-
+    background-color: #2196F3;
+    border: 0;
+    color: #FFF;
+    cursor: pointer;
+    /* text */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-    color: #FFFFFF;
-} */
-
-
-.button:hover {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
-
 }
+
+
 
 /* ____ i dont */
 .section {
@@ -216,7 +203,7 @@ body {
 }
 
 /* ----- Portfolio */
-.button {
+.buttons{
     background-color: var(--button-portolio-grey);
     color: var(--primary-text-color);
     cursor: pointer;
