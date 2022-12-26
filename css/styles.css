@@ -1,0 +1,230 @@
+/* Genaral CSS */
+
+:root {
+    --primary-text-color: #000000;
+    --accent-color: #2196F3;
+    --black: #212121;
+    --grey: #757575;
+    --primary-white-color: #FFFFFF;
+    --button-portolio-grey: #dcd7d7;
+}
+
+.accent {
+    color:var(--accent-color);
+}
+
+.logo {
+    color: var(--black);
+}
+
+.accent2 {
+    color: var(--primary-white-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26;
+    font-style: normal;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/* ______site */
+body {
+    background-color: #FFF;
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+.menu a {
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.menu li{
+    list-style-type:none;
+}
+
+
+.menu a:focus,
+.menu a:hover,
+.menu a:active{
+    color: var(--accent-color);
+}
+
+.contacts a{
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.contacts a:focus,
+.contacts a:hover,
+.contacts a:active {
+    color: var(--accent-color);
+}
+
+.contacts li {
+    list-style-type: none;
+}
+
+/* -----Main CSS  */
+.hero-image {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+.hero-text h1 {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    border-radius: 4px;
+}
+/* Не работает. Не знаю как стилизовать Текст в кнопке...
+.button-text {
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+} */
+
+
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+}
+
+/* ____ i dont */
+.section {
+    color: var(--black);
+    font-weight: 900;
+    font-size: 44;
+    letter-spacing: 0.06em;
+    background-color:#F5F4FA;
+
+} 
+
+.section1 h3 {
+    color: var(--section-title);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section1 p {
+    color: var(--grey-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+/* button */
+
+
+
+.picture .position {
+    color: var(--grey-text-color);
+}
+
+.section2 .section-title {
+    color: var(--section-title);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ______Footer */
+.footer {
+    background-color: #2F303A;
+}
+
+.adress-name {
+    color: var(--primary-white-color);
+}
+
+.adress .link-adress {
+    color: var(--white-test-color);
+}
+
+.adress .link {
+    color: var(--grey-text-color);
+}
+
+/* ----- Portfolio */
+.button {
+    background-color: var(--button-portolio-grey);
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+
+
+
+.section .h2 {
+    color: grey;
+}
+/* ------ */
