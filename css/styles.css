@@ -1,12 +1,12 @@
 /* Genaral CSS */
 
 :root {
-    --primary-text-color: #000000;
     --accent-color: #2196F3;
     --black: #212121;
     --grey: #757575;
-    --primary-white-color: #FFFFFF;
-    --button-portolio-grey: #dcd7d7;
+    --white: #FFFFFF;
+    --contacts-footer: rgba(255, 255, 255, 0.6);
+    --footer:#2F303A;
 }
 
 .accent {
@@ -18,7 +18,7 @@
 }
 
 .accent2 {
-    color: var(--primary-white-color);
+    color: var(--white);
 }
 
 .logo {
@@ -31,10 +31,12 @@
 }
 
 /* ______site */
+/* ---ширина на всю!! (при этом main  и хедер  норм, т.к. в боди 1600. но почему боди не работает) */
 body {
-    background-color: #FFF;
+    background-color:var(--white);
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
+    width: 1600px;
 }
 
 
@@ -98,7 +100,7 @@ body {
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #2F303A;
+    background:var(--footer);
 }
 .hero-text h1 {
     position: absolute;
@@ -112,7 +114,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    color: #FFFFFF;
+    color: var(--white);
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -138,49 +140,50 @@ body {
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
+
+    margin-top: 30px;
+    
+
 }
 
-
-
-/* ____ i dont */
-.section {
-    color: var(--black);
-    font-weight: 900;
-    font-size: 44;
-    letter-spacing: 0.06em;
-    background-color:#F5F4FA;
-
-} 
-
-.section1 h3 {
-    color: var(--section-title);
+.section-advantage{
+    width: 1170px;
+    /* -----высота не бьет с макетом. в просмотре нестыковка. нужно 200. на макете 98 */
+    height: 98px;  
+    left: 215px;
+    top: 774px;
+    margin-top: 50px;
+    margin-left: 215px;
+}
+.section-advantage h2{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--black);
 }
-
-.section1 p {
-    color: var(--grey-text-color);
-    font-style: normal;
+.section-advantage li{
+   list-style-type: none;
+}
+.section-advantage p{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    color: var(--grey);
 }
 
-/* button */
-
-
-
-.picture .position {
-    color: var(--grey-text-color);
+/* ----тоже самое- не бьет с макетом */
+.section-chim_z{
+    width: 1170px;
+    height: 386px;
+    margin-left: 217px;
+    margin-top: 200px;
+    padding-bottom: 60px;
 }
-
-.section2 .section-title {
-    color: var(--section-title);
+.section-chim_z  h2 {
+    color: var(--black);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -189,22 +192,64 @@ body {
     letter-spacing: 0.03em;
 }
 
+.section-team li{
+   list-style-type:none ;
+} 
+
+.section-team h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* text-align: center; - не работает внутри li */
+    letter-spacing: 0.03em;
+    color: var(--black);
+
+}
+.section-team p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* text-align: center;все летит */
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+
+
 /* ______Footer */
-.footer {
-    background-color: #2F303A;
+.footer-section {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background-color:var(--footer);
+
 }
 
-.adress-name {
-    color: var(--primary-white-color);
-}
 
-.adress .link-adress {
-    color: var(--white-test-color);
+.footer-section li {
+    list-style-type: none;
+    font-style: normal;
+    
 }
+.misto{
+    color: var(--white);
+}
+.contact-footer{
+    color: var(--contacts-footer);
+}
+.contact-footer,
+.misto{
+    text-decoration: none;
+}
+/* Как сделать отступ слева и выравнивание вертикаль-центр- хз-------- 
 
-.adress .link {
-    color: var(--grey-text-color);
-}
+
 
 /* ----- Portfolio */
 .buttons{
@@ -216,6 +261,6 @@ body {
 
 
 .section .h2 {
-    color: grey;
+    color:var(--contacts2);
 }
 /* ------ */
