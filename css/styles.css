@@ -7,6 +7,7 @@
     --white: #FFFFFF;
     --contacts-footer: rgba(255, 255, 255, 0.6);
     --footer:#2F303A;
+    --buttons-portfolio: #F5F4FA;
 }
 
 .accent {
@@ -143,7 +144,9 @@ body {
 
     margin-top: 30px;
     
-
+}
+.button:hover{
+    background-color:#7890F9;
 }
 
 .section-advantage{
@@ -252,15 +255,49 @@ body {
 
 
 /* ----- Portfolio */
-.buttons{
-    background-color: var(--button-portolio-grey);
-    color: var(--primary-text-color);
+.buttons-portfolio{
+    background-color: var(--buttons-portfolio);
+    color: var(--black);
     cursor: pointer;
+    border-radius: 4px;
+    width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+    border: 0;}
+
+.buttons-portfolio:hover{
+    background-color: var(--accent-color);
+    color: var(--white);
 }
 
 
 
-.section .h2 {
-    color:var(--contacts2);
+.sections-portfolio h2 {
+    width: 322px;
+    height: 36px;
+    left: 639px;
+    top: 576px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+    columns: var(--black);
 }
-/* ------ */
+
+.sections-portfolio .shorts{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
