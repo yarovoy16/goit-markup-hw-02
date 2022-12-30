@@ -60,8 +60,7 @@ body {
 
 
 .menu a:focus,
-.menu a:hover,
-.menu a:active{
+.menu a:hover{
     color: var(--accent-color);
 }
 
