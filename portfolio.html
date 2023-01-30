@@ -5,113 +5,138 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>WebStudio</title>
 </head>
+
 <body>
     <header>
-        <a href="./index.html">Webstudio</a>
+        <a class="link logo" href="./index.html">Web<span class="accent-logo">studio</span></a>
         <nav>
             <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a class="link link-header link-current" href="./index.html">Studio</a></li>
+                <li><a class="link link-header" href="./portfolio.html" target="_blank"
+                        rel="noreferrer nofollow">Portfolio</a></li>
+                <li><a class="link link-header" href="">Contacts</a></li>
             </ul>
         </nav>
         <ul>
-            <li>info@devstudio.com</li>
-            <li>+11 (000) 111-11-11</li>
+            <li><a class="link adress-header" href="">devstudio.com</a></li>
+            <li><a class="link adress-header" href="">+11 (000) 111-11-11</a></li>
         </ul>
     </header>
-    <ul>
-        <li><button>All</button></li>
-        <li><button>Web Site</button></li>
-        <li><button>App</button></li>
-        <li><button>Design</button></li>
-        <li><button>Marketing</button></li>
-    </ul>
-    <section>
-        <!-- <h2>Our works</h2> -->
-        <div>
-            <a href="">
-                <img src="./images/works1.jpg" alt="">
-                <p>Banking App Interface Concept</p>
-                <p>App</p>
-            </a>
-        </div>
-        <div>
+    <main>
+        <ul class="buttons-main">
+            <li><button class="btn-main" type="button">All</button></li>
+            <li><button class="btn-main" type="button">Web Site</button></li>
+            <li><button class="btn-main" type="button">App</button></li>
+            <li><button class="btn-main" type="button">Design</button></li>
+            <li><button class="btn-main" type="button">Marketing</button></li>
+        </ul>
+        <section>
+            <!-- <h2>Our works</h2> -->
             <div>
-            <a href="">
-                <img src="./images/works2.jpg" alt="">
-                <p>Cashless Payment</p>
-                <p>Marketing</p>
-            </a>
-        </div>
+                <a class="link" href="">
+                    <img src="./images/works1.jpg" alt="box1">
+                    <div class="box-team">
+                        <h3 class="title-third">Banking App Interface Concept</h3>
+                        <p class="text-description">App</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works2.jpg" alt="box2">
+                    <div class="box-team">
+                        <h3 class="title-third">Cashless Payment</h3>
+                        <p class="text-description">Marketing</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works3.jpg" alt="box3">
+                    <div class="box-team">
+                        <h3 class="title-third">Meditaion App</h3>
+                        <p class="text-description">App</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works4.jpg" alt="box4">
+                    <div class="box-team">
+                        <h3 class="title-third">Taxi Service</h3>
+                        <p class="text-description">Marketing</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works5.jpg" alt="box5">
+                    <div class="box-team">
+                        <h3 class="title-third">Screen Illustrations</h3>
+                        <p class="text-description">Design</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works6.jpg" alt="box6">
+                    <div class="box-team">
+                        <h3 class="title-third">Online Courses</h3>
+                        <p class="text-description">Marketing</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works7.jpg" alt="box7">
+                    <div class="box-team">
+                        <h3 class="title-third">Instagram Stories Concept</h3>
+                        <p class="text-description">Design</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works8.jpg" alt="box8">
+                    <div class="box-team">
+                        <h3 class="text-description">Organic Food</h3>
+                        <p class="text-description">Web Site</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a class="link" href="">
+                    <img src="./images/works9.jpg" alt="box9">
+                    <div class="box-team">
+                        <h3 class="text-description">Fresh Coffee</h3>
+                        <p class="text-description">Web Site</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a class="link logo" href="./index.html">Web<span class="accent-logo-footer">studio</span></a>
+            <p class="info-footer">Increase the flow of customers and sales for your business with digital marketing &
+                growth solutions.</p>
         </div>
         <div>
-            <div>
-            <a href="">
-                <img src="./images/works3.jpg" alt="">
-                <p>Meditaion App</p>
-                <p>App</p>
-            </a>
+            <p class="text-footer">Social media</p>
+            <ul class="links-footer">
+                <li><img src="./images/social-inst.svg" alt=""></li>
+                <li><img src="./images/social-twitter.svg" alt=""></li>
+                <li><img src="./images/social-linkedin.svg" alt=""></li>
+                <li><img src="./images/social-fb.svg" alt=""></li>
+            </ul>
         </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works4.jpg" alt="">
-                <p>Taxi Service</p>
-                <p>Marketing</p>
-            </a>
-        </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works5.jpg" alt="">
-                <p>Screen Illustrations</p>
-                <p>Design</p>
-            </a>
-        </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works6.jpg" alt="">
-                <p>Online Courses</p>
-                <p>Marketing</p>
-            </a>
-        </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works7.jpg" alt="">
-                <p>Instagram Stories Concept</p>
-                <p>Design</p>
-            </a>
-        </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works8.jpg" alt="">
-                <p>Organic Food</p>
-                <p>Web Site</p>
-            </a>
-        </div>
-        </div>
-        <div>
-            <div>
-            <a href="">
-                <img src="./images/works9.jpg" alt="">
-                <p>Fresh Coffee</p>
-                <p>Web Site</p>
-            </a>
-        </div>
-    </section>
+    
+    
+    </footer>
+    
 </body>
 </html>
