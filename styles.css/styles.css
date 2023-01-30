@@ -47,9 +47,18 @@ p,h1,h2{
   color: var(--NAVY-BLUE);
 }
 .link-header:hover,
-.adress-header:hover{
+.link-header:focus,
+.adress-header:hover,
+.adress-header:focus{
   color: var(--Ocean);
 }
+.link-current{
+  color: var(--Iris);
+}
+.active:active{
+  color: var(--NAVY-BLUE);
+}
+
 .adress-header{
   font-weight: 400;
   font-size: 16px;
@@ -143,7 +152,7 @@ p,h1,h2{
   border: 1px solid var(--CORNFLOWER);
   border-radius: 4px;
   padding: 12px 24px;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
