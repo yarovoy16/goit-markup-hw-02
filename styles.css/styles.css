@@ -55,9 +55,7 @@ p,h1,h2{
 .link-current{
   color: var(--Iris);
 }
-.active:active{
-  color: var(--NAVY-BLUE);
-}
+
 
 .adress-header{
   font-weight: 400;
@@ -91,8 +89,11 @@ p,h1,h2{
 }
 .section{
   padding-bottom: 120px;
-
 }
+.hide{
+  display: none;
+}
+
 .second-title {
   font-weight: 700;
   font-size: 36px;
