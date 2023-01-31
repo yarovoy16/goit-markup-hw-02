@@ -47,9 +47,7 @@ p,h1,h2{
   color: var(--NAVY-BLUE);
 }
 .link-header:hover,
-.link-header:focus,
-.adress-header:hover,
-.adress-header:focus{
+.adress-header:hover{
   color: var(--Ocean);
 }
 .link-current{
