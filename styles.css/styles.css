@@ -101,7 +101,7 @@ p,h1,h2{
 }
 
 .second-title {
-  font-weight: 700;
+  
   font-size: 36px;
   line-height: 40px;
   text-align: center;
@@ -139,8 +139,11 @@ p,h1,h2{
 .accent-logo-footer{
   color:var(--CLOUD)
 }
+/* Footer */
+.bg-footer{
+  background-color: var(--NAVY-BLUE);
+}
 .info-footer{
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
