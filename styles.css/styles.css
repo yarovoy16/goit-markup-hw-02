@@ -70,6 +70,8 @@ p,h1,h2{
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+
+  
 }
 .button-hero{
   background-color:var(--Iris);
